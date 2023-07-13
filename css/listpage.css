@@ -112,7 +112,6 @@ hr {
 #userinfo .profile-img {
   width: 47px;
   height: 47px;
-  border: 2px solid #505B72;
   margin-left: 23px;
   margin-right: 11px;
   border-radius: 50%;
@@ -161,6 +160,13 @@ hr {
   outline: none;
   right: 31px;
   width: 76px;
+
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0.2px;
 }
 
 #input-post .content-input {

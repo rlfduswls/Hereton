@@ -27,6 +27,10 @@ body {
 }
 
 /* logo */
+#logo > a > img {
+    width: 40vh;
+}
+
 #logo > h3 {
     font-size: 17px;
     text-align: center;

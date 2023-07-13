@@ -42,6 +42,11 @@ nav {
     margin: 0 3vh;
 }
 
+#logo-img {
+    width: 7vh;
+    height: 7vh;
+}
+
 /* start */
 #start {
     width: 100%;
@@ -51,10 +56,14 @@ nav {
     padding-top: 10vh;
 }
 
+#logo-main {
+    width: 250px;
+    height: 200px;
+}
+
 .info {
     color: #575e6a;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
 }
 
 #start > a {
@@ -81,6 +90,10 @@ nav {
     text-align: center;
 }
 
+.item > img {
+    margin-bottom: 1vh;
+}
+
 .func-title {
     text-shadow: 2px 2px 4px gray;
 }
@@ -88,6 +101,12 @@ nav {
 .container {
     /* width: 85%; */
     margin: 0 auto;
+}
+
+.func-info {
+    color: #575e6a;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
 }
 
 /* footer */

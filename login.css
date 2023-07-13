@@ -18,15 +18,27 @@ body {
 
 /* content(non-footer) */
 .content {
-    min-height: calc(90vh - 7vh);
+    min-height: calc(95vh - 7vh);
     width: 40%;
     height: 30vh;
     margin: 0 auto;
-    margin-top: 10vh;
+    margin-top: 5vh;
     text-align: center;
 }
 
 /* logo */
+#logo > a > img {
+    width: 40vh;
+}
+
+#logo > h3 {
+    font-size: 17px;
+    text-align: center;
+    /* margin: 0 auto; */
+    margin-bottom: 22px;
+}
+/* inputs */
+
 #inputs {
     width: 60%;
     margin: 0 auto;
@@ -43,14 +55,6 @@ p {
     margin-bottom: 4px;
 }
 
-#logo > h3 {
-    font-size: 17px;
-    text-align: center;
-    /* margin: 0 auto; */
-    margin-bottom: 22px;
-}
-
-/* inputs */
 #login-form > input {
     width: 100%;
     height: 5vh;

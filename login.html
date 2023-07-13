@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Star Pool</title>
+        <link rel="stylesheet" href="login.css" />
+    </head>
+    <body>
+        <div class="content">
+            <div id="logo">
+                <a href="./splash.html"
+                    ><img src="./images/logo_2.png" alt="로그인 - 로고"
+                /></a>
+                <h6>STAR POOL과 함께 다양한 경험을 시작하세요</h6>
+            </div>
+            <div id="inputs">
+                <form
+                    method="post"
+                    action=""
+                    id="login-form"
+                    onsubmit="return login()"
+                >
+                    <p>이메일</p>
+                    <input
+                        type="text"
+                        id="email"
+                        placeholder="예&#41; likelion@gmail.com"
+                    />
+
+                    <p>비밀번호</p>
+                    <input type="password" id="password" />
+
+                    <br />
+
+                    <input type="submit" value="로그인" />
+                </form>
+            </div>
+
+            <div id="togo-signup">
+                <p>계정이 없으십니까?&nbsp;</p>
+                <a href="./signup.html">회원가입하기</a>
+            </div>
+        </div>
+
+        <footer>
+            <p class="footer">
+                &copy; 2023 HERETHON 오디. STAR POOL ALL RIGHTS RESERVED.
+            </p>
+        </footer>
+
+        <script>
+            function login() {
+                var id = document.getElementById("ID");
+                var password = document.getElementById("password");
+
+                if (id.value == "") {
+                    alert("아이디를 입력해주세요.");
+                    return false;
+                }
+                if (password.value == "") {
+                    alert("비밀번호를 입력해주세요.");
+                    return false;
+                }
+
+                // 로그인 처리 이후
+                window.location.href = "./mainpage.html";
+                return false;
+            }
+        </script>
+    </body>
+</html>

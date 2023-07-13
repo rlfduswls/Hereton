@@ -6,8 +6,9 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-
   justify-content: center;
+
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 hr {
@@ -73,15 +74,18 @@ hr {
   border: none;
 
   font-size: 12px;
+  font-style: normal;
   color: #FFA10A;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 12px;
 }
 
 .contest-name {
   color: #505B72;
   font-size: 30px;
+  font-style: normal;
   font-weight: 700;
+  line-height: 20px;
 
   margin-bottom: 5px;
 }
@@ -103,19 +107,36 @@ hr {
 
 #post .content {
   padding-top: 10px;
-  padding-right: 100px;
-  width: 471px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 531px;
   height: 89px;
+
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 #userinfo .grade-text {
+  color: #505B72;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
   position: absolute;
-  right: 50px;
+  right: 55px;
 }
 
 #userinfo .grade {
+  color: #505B72;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
   position: absolute;
-  right: 19px;
+  right: 25px;
 }
 
 #userinfo {
@@ -142,13 +163,21 @@ hr {
 }
 
 #userinfo span {
+  height: 20px;
+  color: #000;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
   margin-top: 10px;
   font-size: 16px;
 }
 
 #userinfo .posttime {
-  font-size: 13px;
   color: #7D7D7D;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 
 #post button {
@@ -162,6 +191,12 @@ hr {
   background: #0F254E;
   border: none;
   color: #FFF;
+
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 
   bottom: 29px;
   cursor: pointer;
@@ -206,10 +241,11 @@ hr {
   margin-bottom: 10px;
   margin-left: 25px;
 
-  font-size: 15px;
-  font-weight: 500;
   color: #636468;
-
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 
@@ -270,14 +306,18 @@ hr {
   gap: 10px;
 
   margin-right: 18px;
-  margin-bottom: 16px;
+  margin-bottom: 18px;
 
   border: none;
   border-radius: 5px;
   background: #FFC700;
   color: #FFF;
+
+  font-family: 'Noto Sans KR', sans-serif;
   font-size: 13px;
-  font-weight: 900;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
 
   cursor: pointer;
 }
@@ -288,10 +328,10 @@ hr {
   width: 150px;
   background: transparent;
   display: flex;
-  justify-content: center;
   align-items: center;
   gap: .3em;
   padding: 5px;
+  padding-left: 10px;
   overflow: hidden;
 }
 

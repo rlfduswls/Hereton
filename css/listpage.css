@@ -28,6 +28,10 @@ nav {
   line-height: 7vh;
 }
 
+wrapper {
+  height: 86vh;
+}
+
 .nav-item {
   display: flex;
   flex-direction: row;

@@ -29,13 +29,13 @@ height: 100%;
     left: 0;
 }
 
-#logo{
+#logoimg{
+    width:100px;
 position:absolute;
 left:80px;
 color:#E5E3EE;
-top:40%;
-}
 
+}
 #mainpage>a{
 position:absolute;
 left:800px;
@@ -96,7 +96,7 @@ display: flex;
 #copy{
     position:absolute;
     color:#E5E3EE;
-    top:40%;
+    top:15%;
     left: 45%;
 
 }

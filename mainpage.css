@@ -29,11 +29,12 @@ height: 100%;
     left: 0;
 }
 
-#logo{
+#logoimg{
+    width:100px;
 position:absolute;
 left:80px;
 color:#E5E3EE;
-top:40%;
+
 }
 
 #mainpage>a{
@@ -63,7 +64,7 @@ text-decoration: none;
 #copy{
     position:absolute;
     color:#E5E3EE;
-    top:40%;
+    top:15%;
     left: 45%;
 
 }
@@ -94,6 +95,18 @@ text-decoration: none;
     font-family: 'GmarketSansMedium';
 }
 
+.search {
+    position: relative;
+    width: 300px;
+  }
+
+  img {
+    position : absolute;
+    width: 17px;
+    top: 20px;
+    right: 12px;
+    margin: 0;
+  }
 /* s1이랑 s7동일 */
 /* s2랑 s8동일 */
 
@@ -342,9 +355,33 @@ border-radius: 10px;
     font-weight: bold;
     color:#7f8799 ;
      position:absolute;
-    left: 150px;
+    left:100px;
     top:70px;}
 
 
+ /* 스크롤바 */
+    .scrollbar { 
+        width: 250px;
+        height: 250px;
+        overflow-y: scroll;
+      }
+      /* 스크롤바의 폭 너비 */
+      .scrollbar::-webkit-scrollbar {
+          width: 10px;  
+      }
+      
+      .scrollbar::-webkit-scrollbar-thumb {
+        height: 30px;
+          background:#0F254E; 
+          border-radius: 10px; 
+      }
+      
+      .scrollbar::-webkit-scrollbar-track {
+          background:#c7c2da;
+      }
+/* 버튼클릭시 색상변경 이벤트 */
 
-
+.active {
+    background-color: yellow;
+  }
+ 

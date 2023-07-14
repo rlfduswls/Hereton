@@ -91,6 +91,19 @@
     font-family: "GmarketSansMedium";
 }
 
+.search {
+    position: relative;
+    width: 300px;
+}
+
+#img-search {
+    position: absolute;
+    width: 17px;
+    top: 20px;
+    right: 12px;
+    margin: 0;
+}
+
 /* s1이랑 s7동일 */
 /* s2랑 s8동일 */
 
@@ -331,7 +344,7 @@
     font-weight: bold;
     color: #7f8799;
     position: absolute;
-    left: 150px;
+    left: 100px;
     top: 70px;
 }
 
@@ -387,12 +400,29 @@ footer {
     display: flex;
     justify-content: center;
     line-height: 7vh;
-
-    position: absolute;
-    bottom: 0;
 }
 
 .footer {
     margin: 0 auto;
     color: #e5e3ee;
+}
+
+.scrollbar {
+    width: 250px;
+    height: 250px;
+    overflow-y: scroll;
+}
+/* 스크롤바의 폭 너비 */
+.scrollbar::-webkit-scrollbar {
+    width: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+    height: 30px;
+    background: #0f254e;
+    border-radius: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+    background: #c7c2da;
 }

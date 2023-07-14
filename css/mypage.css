@@ -47,7 +47,7 @@ text-decoration: none;
 
 }
 #mypage>a{
-position:absolute;
+ position:absolute;
 left:1000px;
 color:#E5E3EE;
 top:40%;
@@ -88,7 +88,7 @@ nav {
 }
 
 #wrap {
-    position: absolute;
+    position: fixed;
     background-color: white;
     width: 1500px;
     height: 770px;

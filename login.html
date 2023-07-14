@@ -21,14 +21,14 @@
                     id="login-form"
                     onsubmit="return login()"
                 >
-                    <p>이메일</p>
+                    <p class="form-title">이메일</p>
                     <input
                         type="text"
                         id="email"
                         placeholder="예&#41; likelion@gmail.com"
                     />
 
-                    <p>비밀번호</p>
+                    <p class="form-title">비밀번호</p>
                     <input type="password" id="password" />
 
                     <br />
@@ -49,24 +49,6 @@
             </p>
         </footer>
 
-        <script>
-            function login() {
-                var id = document.getElementById("ID");
-                var password = document.getElementById("password");
-
-                if (id.value == "") {
-                    alert("아이디를 입력해주세요.");
-                    return false;
-                }
-                if (password.value == "") {
-                    alert("비밀번호를 입력해주세요.");
-                    return false;
-                }
-
-                // 로그인 처리 이후
-                window.location.href = "./mainpage.html";
-                return false;
-            }
-        </script>
+        <script src="./login.js"></script>
     </body>
 </html>

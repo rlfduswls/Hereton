@@ -87,7 +87,7 @@ height: 7vh;
 
 
 #wrap{
-    position:absolute;
+    position:fixed;
     background-color:white;
     width: 1500px;
     height: 770px;

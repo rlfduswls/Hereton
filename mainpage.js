@@ -1,6 +1,3 @@
-
-
-
 function s1bt() {
   var s1Div = document.getElementById("s1");
   var s1Text = s1Div.querySelector("a");

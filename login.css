@@ -18,7 +18,7 @@ body {
 
 /* content(non-footer) */
 .content {
-    min-height: calc(95vh - 7vh);
+    /* min-height: calc(95vh - 7vh); */
     width: 40%;
     height: 30vh;
     margin: 0 auto;
@@ -120,6 +120,8 @@ footer {
     display: flex;
     justify-content: center;
     line-height: 7vh;
+    position: absolute;
+    bottom: 0;
 }
 
 .footer {

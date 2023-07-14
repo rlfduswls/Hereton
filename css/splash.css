@@ -1,19 +1,27 @@
-@font-face {
+/* @font-face {
     font-family: "GmarketSansMedium";
     src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
         format("woff");
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 * {
     padding: 0;
     margin: 0;
     border: none;
+    font-family: "Noto Sans KR", sans-serif;
 }
 
 body {
     background-color: #e5e3ee;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+
+    font-family: "Noto Sans KR", sans-serif;
 }
 
 /* content(non-footer) */

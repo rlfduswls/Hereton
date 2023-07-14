@@ -18,7 +18,7 @@ body {
 
 /* content(non-footer) */
 .content {
-    min-height: calc(95vh - 7vh);
+    /* min-height: calc(95vh - 7vh); */
     width: 40%;
     height: 30vh;
     margin: 0 auto;
@@ -37,15 +37,17 @@ body {
     /* margin: 0 auto; */
     margin-bottom: 22px;
 }
-
 /* inputs */
+
 #inputs {
     width: 60%;
     margin: 0 auto;
 }
-#signup-form {
+
+#login-form {
     text-align: center;
     margin: 0 auto;
+    margin-top: 5vh;
     display: flex;
     flex-direction: column;
 }
@@ -54,13 +56,19 @@ p {
     margin-bottom: 4px;
 }
 
-#signup-form > input {
+.form-title {
+    margin-bottom: 4px;
+    text-align: left;
+    margin-left: 1vh;
+}
+
+#login-form > input {
     width: 100%;
     height: 5vh;
     line-height: 5vh;
     padding: 0 10px;
     box-sizing: border-box;
-    margin-bottom: 15px;
+    margin-bottom: 3vh;
     border-radius: 10px;
     border-width: 1px;
     background-color: #f8f8f8;
@@ -69,23 +77,7 @@ p {
     box-shadow: 2px 2px 2px gray;
 }
 
-label {
-    text-align: center;
-    display: block;
-    margin-top: 12px;
-}
-
-hr {
-    width: 85%;
-    height: 1px;
-    border: none;
-    background-color: #d4d4d4;
-    margin: 0 auto;
-    margin-top: 1vh;
-    margin-bottom: 1vh;
-}
-
-#signup-form > input[type="submit"] {
+#login-form > input[type="submit"] {
     display: block;
     width: 25vh;
     border-radius: 14px;
@@ -95,23 +87,23 @@ hr {
     background-color: #0f254e;
     border-style: none;
     margin: 0 auto;
-    margin-top: 3vh;
+    margin-top: 5vh;
 }
 
-/* togo-login */
-#togo-login {
+/* togo-signup */
+#togo-signup {
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 0.5em;
 }
 
-#togo-login > p {
+#togo-signup > p {
     color: #5b5b5b;
     font-size: 14px;
 }
 
-#togo-login > a {
+#togo-signup > a {
     text-decoration: none;
     color: #436482;
     font-size: 14px;
@@ -128,6 +120,8 @@ footer {
     display: flex;
     justify-content: center;
     line-height: 7vh;
+    position: absolute;
+    bottom: 0;
 }
 
 .footer {

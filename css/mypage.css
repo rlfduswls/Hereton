@@ -1,66 +1,14 @@
-@font-face {
-    font-family: "GmarketSansMedium";
-    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
-        format("woff");
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
     background-color: #e5e3ee;
     margin: 0;
     padding: 0;
     display: flex;
     height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-/* #nav{background-color:#0F254E;
-    display:flex;
-    width: 100%;
-    height: 100px;
-    position: absolute;
-} */
-
-/* #footer{
-    display:flex;
-    position:absolute;
-    background-color:#0F254E;
-    width: 100%;
-    height: 50px;
-    bottom:0;
-    left: 0;
-} */
-
-/* #logoimg{
-    width:100px;
-position:absolute;
-left:80px;
-color:#E5E3EE;
-
-}
-#mainpage>a{
-position:absolute;
-left:800px;
-color:#E5E3EE;
-top:40%;
-text-decoration: none;
-
-}
-#mypage>a{
-position:absolute;
-left:1000px;
-color:#E5E3EE;
-top:40%;
-text-decoration: none;
-}
-#login>a{
-    position:absolute;
-    left:1500px;
-    color:#E5E3EE;
-    top:40%;
-    text-decoration: none;
-
-} */
 nav {
     background-color: #0f254e;
     display: flex;
@@ -88,27 +36,27 @@ nav {
 }
 
 #wrap {
-    position: absolute;
     background-color: white;
     width: 1500px;
-    height: 770px;
-    top: 200px;
-    left: 220px;
+    height: 80vh;
+    top: 20%;
+    left: 10%;
 }
+
 #title {
-    position: absolute;
-    background-color: #e5e3ee;
-    top: 100px;
-    font-size: 55px;
-    left: 42%;
-    font-family: "GmarketSansMedium";
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: "Noto Sans KR", sans-serif;
     color: #0f254e;
+
     font-weight: bold;
 }
 
 #section {
     position: relative;
     display: flex;
+    height: fit-content;
 }
 
 #var {
@@ -117,14 +65,6 @@ nav {
     background-color: #0f254e;
     width: 100%;
 }
-/* FOOTER의 저작권 글 부분 */
-/* #copy{
-    position:absolute;
-    color:#E5E3EE;
-    top:15%;
-    left: 45%;
-
-} */
 
 /* 이름작성하는 곳 */
 #name {
@@ -136,6 +76,7 @@ nav {
     left: 70px;
     border: none;
 }
+
 #namevar {
     border-radius: 5px 5px 0 0;
     position: absolute;
@@ -150,13 +91,14 @@ nav {
 
 #namevar > a {
     position: absolute;
-    font-family: "GmarketSansMedium";
-    font-size: 25px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 20px;
     font-weight: 600;
     top: 13px;
     left: 20px;
     border: none;
 }
+
 #nametext {
     position: absolute;
     top: 50px;
@@ -165,6 +107,7 @@ nav {
     height: 50px;
     border-radius: 0;
     border-color: #a1aeb7;
+    font-size: 20px;
 }
 
 /* 사용자 소개 작성하는 곳 */
@@ -177,6 +120,7 @@ nav {
     left: 750px;
     border: none;
 }
+
 #introvar {
     border-radius: 5px 5px 0 0;
     position: absolute;
@@ -191,13 +135,15 @@ nav {
 
 #introvar > a {
     position: absolute;
-    font-family: "GmarketSansMedium";
-    font-size: 25px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 20px;
+
     font-weight: 600;
-    top: 8px;
+    top: 10px;
     left: 20px;
     border: none;
 }
+
 #introtext {
     position: absolute;
     top: 50px;
@@ -206,6 +152,7 @@ nav {
     height: 400px;
     border-radius: 0;
     border-color: #a1aeb7;
+    font-size: 20px;
 }
 
 /* 포트폴리오 첨부파일 하는 곳 */
@@ -219,6 +166,7 @@ nav {
     left: 370px;
     border: none;
 }
+
 #pfvar {
     border-radius: 5px 5px 0 0;
     position: absolute;
@@ -233,13 +181,15 @@ nav {
 
 #pfvar > a {
     position: absolute;
-    font-family: "GmarketSansMedium";
-    font-size: 25px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 20px;
+
     font-weight: 600;
-    top: 10px;
+    top: 13px;
     left: 20px;
     border: none;
 }
+
 .filebox {
     border: 2px solid;
     position: absolute;
@@ -251,7 +201,7 @@ nav {
     border-color: #a1aeb7;
 }
 
-.filebox .upload-name {
+/* .filebox .upload-name {
     position: absolute;
     top: 3px;
     left: 0px;
@@ -280,7 +230,7 @@ nav {
     padding: 0;
     overflow: hidden;
     border: 0;
-}
+} */
 
 /* 학교입력칸 */
 
@@ -293,6 +243,7 @@ nav {
     left: 370px;
     border: none;
 }
+
 #univvar {
     border-radius: 5px 5px 0 0;
     position: absolute;
@@ -307,13 +258,15 @@ nav {
 
 #univvar > a {
     position: absolute;
-    font-family: "GmarketSansMedium";
-    font-size: 25px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 20px;
+
     font-weight: 600;
-    top: 10px;
+    top: 13px;
     left: 20px;
     border: none;
 }
+
 #univtext {
     position: absolute;
     top: 50px;
@@ -322,6 +275,7 @@ nav {
     height: 50px;
     border-radius: 0;
     border-color: #a1aeb7;
+    font-size: 18px;
 }
 
 /* 프로필 이미지 */
@@ -335,6 +289,7 @@ nav {
     border: 2px solid #a1aeb7;
     border-radius: 5px 5px 0 0;
 }
+
 #uivar {
     border-radius: 5px 5px 0 0;
     position: absolute;
@@ -349,13 +304,15 @@ nav {
 
 #uivar > a {
     position: absolute;
-    font-family: "GmarketSansMedium";
-    font-size: 25px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 20px;
+
     font-weight: 600;
-    top: 7px;
+    top: 10px;
     left: 20px;
     border: none;
 }
+
 #uiimg {
     position: absolute;
     top: 50px;
@@ -375,6 +332,7 @@ nav {
     width: 280px;
     position: absolute;
 }
+
 .uploadImage {
     position: absolute;
     top: 100px;
@@ -402,43 +360,74 @@ nav {
     color: white;
     width: 100px;
     height: 50px;
-    font-family: "GmarketSansMedium";
+    font-family: "Noto Sans KR", sans-serif;
+    border-radius: 10px;
 }
 
 #edit > a {
     position: absolute;
-    top: 17px;
+    top: 15px;
     left: 20px;
     font-weight: 600;
 }
+
 /* 공개범위 설정 */
 #open {
     font-size: 20px;
-    font-family: "GmarketSansMedium";
+    font-family: "Noto Sans KR", sans-serif;
     text-align: center;
     left: 70px;
     width: 280px;
     height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
+    gap: 10px;
     top: 550px;
     background-color: white;
     border: 2px solid #a1aeb7;
 }
 
-#footer {
-    display: flex;
-    position: absolute;
+footer {
     background-color: #0f254e;
     width: 100%;
-    height: 7vh;
     bottom: 0;
-    left: 0;
+    height: 7vh;
     text-align: center;
+    display: flex;
     justify-content: center;
     line-height: 7vh;
+}
+
+.footer {
+    margin: 0 auto;
+    color: #e5e3ee;
 }
 
 #copy {
     margin: 0 auto;
     color: #e5e3ee;
+}
+
+#password {
+    background-color: #0f254e;
+    display: flex;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    top: 440px;
+    left: 370px;
+    border: none;
+    border-radius: 10px;
+}
+
+#password > a {
+    color: white;
+    position: absolute;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 600;
+    top: 12px;
+    left: 50px;
+    border: none;
 }

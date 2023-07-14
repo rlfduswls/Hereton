@@ -2,7 +2,9 @@
 <head> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title></title>
+
     <link rel="stylesheet" href="./css/mypage.css" />
+
 </head>
 <body>
     <nav>
@@ -16,9 +18,10 @@
         </div>
         <div class="nav-item">
             <a href="./login.html"><div id="login">Log In</div></a>
-            <a href="#"><div id="logout">Log Out</div></a>
+            <a href="./splash.html"><div id="logout">Log Out</div></a>
+
         </div>
-      </nav> 
+    </nav> 
 
 <a id="title">My page</a>
 
@@ -27,8 +30,8 @@
     <div id="var"></div>
 <!-- 이름 -->
     <div id="name">
-       <div id="namevar"><a>이름</a></div>
-       <input id="nametext" type="text"  placeholder="STAR POOL">
+        <div id="namevar"><a>이름</a></div>
+        <input id="nametext" type="text"  placeholder="STAR POOL">
     </div>
 <!-- 사용자 소개 -->
     <div id="intro">
@@ -51,9 +54,8 @@
     <div id="pf">
         <div id="pfvar"><a>포트폴리오</a></div>
         <div class="filebox">
-            <input class="upload-name" value="파일선택" placeholder="파일선택">
-            <label for="file"><i class="fa-solid fa-link"></i></label> 
-            <input type="file" id="file">
+            <label for="file-input"></label>
+      <input id="file-input" type="file" />
         </div>
     </div>
 <!-- 학교 입력 -->
@@ -66,16 +68,22 @@
         <input type="checkbox" > <a>별점</a>
         <input type="checkbox" > <a>리뷰</a>
     </div>
+
+    <div id="password"><a>비밀번호 변경</a></div>
+
 <!-- 수정하기 버튼 -->
-    <div id="edit"><a>수정하기</a></div>
+    <div id="edit"><a>수정완료</a></div>
 </div>
 </div>
 
-<div id="footer">
-    <a id="copy">&copy; 2023 HERETHON 오디. STAR POOL ALL RIGHTS RESERVED.</a>
-</div>
 
-<script src="mypage.js"></script>
+    <footer>
+    <p class="footer">
+    &copy; 2023 HERETHON 오디. STAR POOL ALL RIGHTS RESERVED.
+    </p>
+    </footer>
+
+<script src="./js/mypage.js"></script>
 </body>
 
 </html>

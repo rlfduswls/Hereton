@@ -5,17 +5,25 @@
     <link rel="stylesheet" href="mainpage.css" />
 </head>
 <body>
-<div id="nav">
-    <div id="logo"><img id="logoimg" src="logo.png"></div>
-    <div id="mainpage"><a href="splash.html">Main Page</a></div>
-    <div id="mypage"><a href="mypage.html">My Page</a></div>
-    <div id="login"><a href="">Log In</a></div>
-</div>
+  <nav>
+    <div class="nav-item">
+        <a href="#"><img id="logo-img" src="./images/logo_1.png" alt="navbar 로고"></img></a>
+    </div>
+    <div class="nav-item">
+        <a href="./mainpage.html"
+            ><div id="mainpage">MainPage</div></a>
+        <a href="#"><div id="mypage">MyPage</div></a>
+    </div>
+    <div class="nav-item">
+        <a href="./login.html"><div id="login">Log In</div></a>
+        <a href="#"><div id="logout">Log Out</div></a>
+    </div>
+  </nav> 
 <div id="wrap">
 <div id="aside">
   <div class="search">
   <input type="text" id="search" placeholder="   공모전 검색">
-  <img src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png">
+  <img id="img-search" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png">
   </div>
   <div id="s1" class="button" onclick="buttonClick('s1')"><a>기획/아이디어</a></div>
   <div id="s2" class="button" onclick="buttonClick('s2')"><a>영상/UCC/사진</a></div>
@@ -45,12 +53,15 @@
 </div>
 </div>
 </div>
-
-<div id="footer">
-    <a id="copy">Copyright © Star pool 2023</a>
 </div>
+<div id="footer">
+    <a id="copy">&copy; 2023 HERETHON 오디. STAR POOL ALL RIGHTS RESERVED.</a>
+
 
 <script src="mainpage.js"></script>
+
 </body>
 
 </html>
+
+

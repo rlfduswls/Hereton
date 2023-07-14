@@ -5,13 +5,20 @@
     <link rel="stylesheet" href="mypage.css" />
 </head>
 <body>
-<div id="nav">
-    <div id="logo"><img id="logoimg" src="logo.png"></div>
-    <div id="mainpage"><a href="mainpage.html">Main Page</a></div>
-    <div id="mypage"><a href="mypage.html">My Page</a></div>
-    <div id="login"><a href="">Log In</a></div>
-</div>
-
+    <nav>
+        <div class="nav-item">
+            <a href="#"><img id="logo-img" src="./images/logo_1.png" alt="navbar 로고"></img></a>
+        </div>
+        <div class="nav-item">
+            <a href="./mainpage.html"
+                ><div id="mainpage">MainPage</div></a>
+            <a href="#"><div id="mypage">MyPage</div></a>
+        </div>
+        <div class="nav-item">
+            <a href="./login.html"><div id="login">Log In</div></a>
+            <a href="#"><div id="logout">Log Out</div></a>
+        </div>
+      </nav> 
 
 <a id="title">My page</a>
 
@@ -65,7 +72,7 @@
 </div>
 
 <div id="footer">
-    <a id="copy">Copyright © Star pool 2023</a>
+    <a id="copy">&copy; 2023 HERETHON 오디. STAR POOL ALL RIGHTS RESERVED.</a>
 </div>
 
 <script src="mypage.js"></script>

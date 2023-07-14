@@ -5,6 +5,7 @@
     font-style: normal;
 }
 
+
 body{background-color: #E5E3EE;
 margin:0;
 padding: 0;
@@ -12,14 +13,39 @@ display:flex;
 height: 100%;
 }
 
-#nav{background-color:#0F254E;
-    display:flex;
-    width: 100%;
-    height: 100px;
-    position: absolute;
+.content {
+    min-height: calc(100vh - 7vh);
 }
 
-#footer{
+nav {
+    background-color: #0f254e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 7vh;
+    line-height: 7vh;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item > a {
+    text-decoration: none;
+    color: #e5e3ee;
+    margin: 0 3vh;
+}
+
+#logo-img {
+    width: 7vh;
+    height: 7vh;
+}
+
+
+
+/* #footer{
     display:flex;
     position:absolute;
     background-color:#0F254E;
@@ -27,15 +53,17 @@ height: 100%;
     height: 50px;
     bottom:0;
     left: 0;
+} */
+
+
+/* 이미지 후에 수정*/
+/* #logoimg{
+    display: flex;
+  flex-direction: row;
+        width: 7vh;
+        height: 7vh;
 }
 
-#logoimg{
-    width:100px;
-position:absolute;
-left:80px;
-color:#E5E3EE;
-
-}
 
 #mainpage>a{
 position:absolute;
@@ -59,15 +87,7 @@ text-decoration: none;
     top:40%;
     text-decoration: none;
 
-}
-
-#copy{
-    position:absolute;
-    color:#E5E3EE;
-    top:15%;
-    left: 45%;
-
-}
+} */
 
 
 
@@ -100,7 +120,7 @@ text-decoration: none;
     width: 300px;
   }
 
-  img {
+#img-search {
     position : absolute;
     width: 17px;
     top: 20px;
@@ -273,6 +293,7 @@ border:2px solid #0F254E;
 
 
 /* 공모전 정보 제공하는 곳 css */
+
 #grid-container{
     position: absolute;
     display: grid;
@@ -295,7 +316,7 @@ border-radius: 10px;
     border-radius: 10px 10px 0px 0px;
     width: 330px;
     height: 200px;
-    object-fit: cover;
+    object-fit: fill;
 
 }
 .item1{
@@ -385,3 +406,38 @@ border-radius: 10px;
     background-color: yellow;
   }
  
+/* 
+  footer {
+    background-color: #0f254e;
+    width: 100%;
+    bottom: 0;
+    height: 7vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    line-height: 7vh;
+}
+
+.footer {
+    margin: 0 auto;
+    color: #e5e3ee;
+} */
+
+#footer{
+    display:flex;
+    position:absolute;
+    background-color:#0F254E;
+    width: 100%;
+    height:7vh;
+    bottom:0;
+    left: 0;
+    text-align: center;
+    justify-content: center;
+    line-height: 7vh;
+}
+
+#copy{
+    margin: 0 auto;
+    color: #e5e3ee;
+}
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Star Pool</title>
+    <link rel="stylesheet" href="./css/mainpage.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap"
+        rel="stylesheet"
+    />
+</head>
+<body>
+  <div class="content">
+    <nav>
+      <div class="nav-item">
+          <a href="./splash.html"><img id="logo-img" src="./images/logo_1.png" alt="navbar 로고"></img></a>
+      </div>
+      <div class="nav-item">
+          <a href="./mainpage.html"
+              ><div id="mainpage">MainPage</div></a
+          >
+          <a href="./mypage.html"><div id="mypage">MyPage</div></a>
+      </div>
+      <div class="nav-item">
+          <a href="./login.html"><div id="login">Log In</div></a>
+          <a href="#"><div id="logout">Log Out</div></a>
+      </div>
+  </nav>
+
+  <div id="wrap">
+    <div id="aside">
+      <div class="search">
+          <input type="text" id="search" placeholder="공모전 검색">
+          <img id="img-search" src="https://s3.ap-northeast-2.amazonaws.com/cdn.wecode.co.kr/icon/search.png">
+      </div>
+      <div id="s1"><a>기획/아이디어</a></div>
+      <div id="s2"><a>영상/UCC/사진</a></div>
+      <div id="s3"><a>광고/마케팅</a></div>
+      <div id="s4"><a>디자인/캐릭터/웹툰</a></div>
+      <div id="s5"><a>웹/모바일/플래시</a></div>
+      <div id="s6"><a>논문/리포트</a></div>
+      <div id="s7"><a>네이밍/슬로건</a></div>
+      <div id="s8"><a>게임/소프트웨어</a></div>
+    </div>
+    
+    <div id="grid-container" class="scrollbar" style="overflow-x:hidden; height:600px; width:1100px;">
+    <div id="gridgrid">
+      {% for index, image in images %}
+      <div class="grid-item" >
+        <img src="./img/제6회 핀테크 아이디어 공모전 포스터.jpg" class="item1">
+    </div>
+    {% endfor %}
+      <div id="gridsection">
+        <a id="kind">기획/아이디어</a>
+        <div id="title">2023년 KHIDI 공공데이터 활용 아이디어 공모전</div>
+        <a id="num"><i class="fa-solid fa-align-left"></i>   4</a>
+        <a id="day"><i class="fa-regular fa-calendar-minus"></i>   2023.07.04~2023.07.11</a>
+      </div>
+    </div>
+    </div>
+    </div>
+  </div>
+
+<footer>
+  <p class="footer">&copy; 2023 HERETHON 오디. STAR POOL ALL RIGHTS RESERVED.
+  </p>
+</footer>
+
+<script src="./js/mainpage.js"></script>
+</body>
+
+</html>

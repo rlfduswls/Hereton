@@ -80,7 +80,7 @@
     font-size: medium;
     width: 300px;
     height: 55px;
-    font-family: "GmarketSansMedium";
+    font-family: "Noto Sans KR", sans-serif;
 }
 
 .search {
@@ -111,7 +111,7 @@
 
 #s1 > a {
     font-size: 13px;
-    font-family: "GmarketSansMedium";
+    font-family: "Noto Sans KR", sans-serif;
     position: absolute;
     top: 13px;
     left: 10px;
@@ -131,7 +131,7 @@
 
 #s2 > a {
     font-size: 14px;
-    font-family: "GmarketSansMedium";
+    font-family: "Noto Sans KR", sans-serif;
     position: absolute;
     top: 13px;
     left: 40px;
@@ -150,7 +150,7 @@
 
 #s3 > a {
     font-size: 12px;
-    font-family: "GmarketSansMedium";
+    font-family: "Noto Sans KR", sans-serif;
     position: absolute;
     top: 15px;
     left: 8px;
@@ -170,7 +170,7 @@
 
 #s4 > a {
     font-size: 14px;
-    font-family: "GmarketSansMedium";
+    font-family: "Noto Sans KR", sans-serif;
     position: absolute;
     top: 13px;
     left: 45px;
@@ -189,7 +189,7 @@
 
 #s5 > a {
     font-size: 14px;
-    font-family: "GmarketSansMedium";
+    font-family: "Noto Sans KR", sans-serif;
     position: absolute;
     top: 13px;
     left: 50px;
@@ -209,7 +209,7 @@
 
 #s6 > a {
     font-size: 12px;
-    font-family: "GmarketSansMedium";
+    font-family: "Noto Sans KR", sans-serif;
     position: absolute;
     top: 15px;
     left: 8px;
@@ -229,7 +229,7 @@
 
 #s8 > a {
     font-size: 14px;
-    font-family: "GmarketSansMedium";
+    font-family: "Noto Sans KR", sans-serif;
     position: absolute;
     top: 13px;
     left: 45px;
@@ -249,7 +249,7 @@
 
 #s7 > a {
     font-size: 13px;
-    font-family: "GmarketSansMedium";
+    font-family: "Noto Sans KR", sans-serif;
     position: absolute;
     top: 13px;
     left: 10px;
